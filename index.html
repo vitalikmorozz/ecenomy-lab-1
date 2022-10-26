@@ -7,7 +7,18 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <form action="" id="calculate-form">
+        <label for="kloc">KLOC</label>
+        <input id="kloc" type="number" />
+        <select name="type" id="type-select">
+          <option value="organic">Organic</option>
+          <option value="semi-detached">Semi Detached</option>
+          <option value="embedded">Embedded</option>
+        </select>
+        <button type="submit">Розрахувати</button>
+      </form>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
