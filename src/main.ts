@@ -1,3 +1,5 @@
+import './main.css';
+
 export type CocomoTypes = 'organic' | 'semi-detached' | 'embedded';
 
 export type CocomoTypeValues = {
